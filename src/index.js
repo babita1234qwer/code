@@ -26,7 +26,9 @@ const cors=require('cors');
 const io = new Server(server, {
   cors: {
     origin:[
-    'https://lustrous-chimera-ccf5e4.netlify.app',
+    'zesty-kheer-8dc4ce.netlify.app',
+
+
     'http://localhost:5173'
   ],
     credentials: true
@@ -36,7 +38,9 @@ socketHandler(io);
 
 app.use(cors({
  origin: [
-    'https://lustrous-chimera-ccf5e4.netlify.app',
+    'zesty-kheer-8dc4ce.netlify.app',
+
+
     'http://localhost:5173'
   ],
     credentials: true 
